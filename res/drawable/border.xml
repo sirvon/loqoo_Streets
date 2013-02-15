@@ -7,13 +7,12 @@
 
     <solid 
         android:color="#00FFFFFF"
-        android:paddingLeft="10dip"
-        android:paddingTop="10dip"/>
+    /> 
+ 
 
     <corners android:radius="10px"/>
 
     <padding 
-         
         android:top="10dip" 
         android:right="20dip" 
         android:bottom="10dip" /> 
