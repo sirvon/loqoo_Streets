@@ -119,8 +119,8 @@
 <RelativeLayout
    android:layout_height="fill_parent"
    android:layout_width="250dp"
-   android:background="@drawable/borderl">
-   android:layout_alignParentRight="true"
+   android:background="@drawable/borderl"
+   android:layout_alignParentRight="true">
 </RelativeLayout>
 
 
