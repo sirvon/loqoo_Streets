@@ -36,7 +36,7 @@
         android:layout_below="@+id/standard"
         android:text="@string/custom" />
     <Button
-        android:id="@+id/1stwashmiafl"
+        android:id="@+id/fstwash"
         android:layout_width="451px"
         android:layout_height="200px"
         android:background="#000000" />
