@@ -36,10 +36,10 @@
         android:layout_below="@+id/standard"
         android:text="@string/custom" />
     <Button
-        android:id="@+id/standard"
-        android:layout_width="150px"
-        android:layout_height="300px"
-        android:text="@string/standard" />
+        android:id="@+id/1stwashmiafl"
+        android:layout_width="451px"
+        android:layout_height="200px"
+        android:background="#000000" />
 
     <Button
         android:id="@+id/custom"
