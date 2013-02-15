@@ -23,8 +23,8 @@ public final class R {
     }
     public static final class id {
         public static final int custom=0x7f050002;
-        public static final int fivefiftyfive1=0x7f050006;
-        public static final int fiveforty1=0x7f050004;
+        public static final int fivefiftyfive=0x7f050006;
+        public static final int fiveforty=0x7f050004;
         public static final int fstwash=0x7f050003;
         public static final int scrollView1=0x7f050000;
         public static final int scrollView2=0x7f050005;
