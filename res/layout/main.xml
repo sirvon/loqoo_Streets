@@ -40,7 +40,7 @@
         android:layout_width="451px"
         android:layout_height="200px"
         android:background="#000000"
-        android:marginBottom="20dp" />
+        android:layout_marginBottom="20dp" />
 
     <Button
         android:id="@+id/custom"
