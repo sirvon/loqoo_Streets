@@ -292,7 +292,7 @@
         android:id="@+id/fivefiftyfive1"
         android:layout_width="300px"
         android:layout_height="161px"
-        android:src="@drawable/fivefiftyfive />
+        android:src="@drawable/fivefiftyfive" />
    
     </LinearLayout>
  </com.loqoo.streets.ObservableScrollView>
