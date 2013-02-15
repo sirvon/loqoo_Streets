@@ -112,15 +112,14 @@
    android:layout_height="fill_parent"
    android:layout_width="50dp"
    android:layout_toRightOf="@id/scrollView1"
-   >
+   android:background="@drawable/border">
 
 <Button
         android:id="@+id/standard"
         android:layout_width="300px"
         android:layout_height="150px"
         android:text="@string/standard"
-        android:layout_alignParentRight="true"
-        android:background="@drawable/border" />
+        android:layout_alignParentRight="true"/>
 </RelativeLayout>
   
  <com.loqoo.streets.ObservableScrollView
