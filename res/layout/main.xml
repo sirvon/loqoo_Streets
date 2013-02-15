@@ -112,7 +112,7 @@
         android:layout_width="200px"
         android:layout_height="304px"
         android:layout_below="@+id/standard"
-        android:src="@drawable/washav540front" />
+        android:src="@drawable/fiveforty" />
     
 	</LinearLayout>
  </com.loqoo.streets.ObservableScrollView>
@@ -292,7 +292,7 @@
         android:id="@+id/standard"
         android:layout_width="200px"
         android:layout_height="304px"
-        android:src="@drawable/washav540back />
+        android:src="@drawable/washav555back />
    
     </LinearLayout>
  </com.loqoo.streets.ObservableScrollView>
