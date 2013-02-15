@@ -44,8 +44,8 @@
         android:layout_marginTop="50dp"
     <Button
         android:id="@+id/custom"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
         android:layout_below="@+id/standard"
         android:text="@string/custom" />
     <Button
@@ -119,7 +119,7 @@
 
 <RelativeLayout
    android:layout_height="fill_parent"
-   android:layout_width="250dp"
+   android:layout_width="400dp"
    android:background="@drawable/borderl"
    android:layout_alignParentRight="true">
 </RelativeLayout>
@@ -128,7 +128,7 @@
   
  <com.loqoo.streets.ObservableScrollView
    android:id="@+id/scrollView2"
-   android:layout_width="300px"
+   android:layout_width="401dp"
    android:layout_height="fill_parent"
    android:fillViewport="false"
    android:layout_alignParentRight="true"
@@ -141,7 +141,7 @@
    android:gravity="right"> 
     <Button
         android:id="@+id/standard"
-        android:layout_width="300px"
+        android:layout_width="200px"
         android:layout_height="150px"
         android:text="@string/standard"
         android:layout_alignParentRight="true" />
