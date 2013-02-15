@@ -107,12 +107,12 @@
 
         android:text="@string/standard" />
 
-    <Button
-        android:id="@+id/custom"
+    <ImageButton
+        android:id="@+id/540"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/standard"
-        android:text="@string/custom" />
+        android:src="@drawable/540washavF" />
     
 	</LinearLayout>
  </com.loqoo.streets.ObservableScrollView>
