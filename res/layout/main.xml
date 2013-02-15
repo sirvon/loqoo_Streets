@@ -3,6 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+<RelativeLayout
+   android:layout_height="fill_parent"
+   android:layout_width="500dp"
+   android:background="@drawable/border">
+
+<Button
+        android:id="@+id/standard"
+        android:layout_width="45px"
+        android:layout_height="150px"
+        android:text="@string/standard"
+        />
+</RelativeLayout>
+
  <com.loqoo.streets.ObservableScrollView
    android:id="@+id/scrollView1"
    android:layout_width="300dp"
@@ -108,19 +121,7 @@
 	</LinearLayout>
  </com.loqoo.streets.ObservableScrollView>
 
-<RelativeLayout
-   android:layout_height="fill_parent"
-   android:layout_width="50dp"
-   android:layout_toRightOf="@id/scrollView1"
-   android:background="@drawable/border">
 
-<Button
-        android:id="@+id/standard"
-        android:layout_width="45px"
-        android:layout_height="150px"
-        android:text="@string/standard"
-        android:layout_alignParentRight="true"/>
-</RelativeLayout>
   
  <com.loqoo.streets.ObservableScrollView
    android:id="@+id/scrollView2"
