@@ -119,7 +119,8 @@
         android:layout_width="300px"
         android:layout_height="150px"
         android:text="@string/standard"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:background="@drawable/border" />
 </RelativeLayout>
   
  <com.loqoo.streets.ObservableScrollView
