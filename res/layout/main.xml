@@ -13,7 +13,7 @@
 
  <com.loqoo.streets.ObservableScrollView
    android:id="@+id/scrollView1"
-   android:layout_width="300dp"
+   android:layout_width="451dp"
    android:layout_height="fill_parent"
    android:fillViewport="false"
    android:layout_alignParentLeft="true"
@@ -39,7 +39,8 @@
         android:id="@+id/fstwash"
         android:layout_width="451px"
         android:layout_height="200px"
-        android:background="#000000" />
+        android:background="#000000"
+        android:marginBottom="20dp" />
 
     <Button
         android:id="@+id/custom"
