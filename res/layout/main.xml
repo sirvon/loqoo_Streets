@@ -6,15 +6,9 @@
 
 <RelativeLayout
    android:layout_height="fill_parent"
-   android:layout_width="500dp"
+   android:layout_width="450dp"
    android:background="@drawable/border">
 
-<Button
-        android:id="@+id/standard"
-        android:layout_width="45px"
-        android:layout_height="150px"
-        android:text="@string/standard"
-        />
 </RelativeLayout>
 
  <com.loqoo.streets.ObservableScrollView
@@ -121,6 +115,13 @@
     
 	</LinearLayout>
  </com.loqoo.streets.ObservableScrollView>
+
+<RelativeLayout
+   android:layout_height="fill_parent"
+   android:layout_width="450dp"
+   android:background="@drawable/borderL">
+   android:layout_alignParentRight="true"
+</RelativeLayout>
 
 
   
