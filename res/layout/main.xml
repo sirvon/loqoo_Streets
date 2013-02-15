@@ -112,7 +112,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/standard"
-        android:src="@drawable/540washavF" />
+        android:src="@drawable/540washavfront" />
     
 	</LinearLayout>
  </com.loqoo.streets.ObservableScrollView>
