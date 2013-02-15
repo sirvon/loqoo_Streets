@@ -13,7 +13,7 @@
     <corners android:radius="10px"/>
 
     <padding 
-        android:left="0dip" 
+         
         android:top="10dip" 
         android:right="10dip" 
         android:bottom="10dip" /> 
