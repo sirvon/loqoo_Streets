@@ -288,10 +288,10 @@
         android:layout_below="@+id/standard"
         android:text="@string/custom" 
         android:layout_alignParentRight="true" />
-    <Button
+    <ImageButton
         android:id="@+id/fivefiftyfive"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300px"
+        android:layout_height="161px"
         android:src="@drawable/fivefiftyfive" />
    
     </LinearLayout>
