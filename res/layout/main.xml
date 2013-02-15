@@ -111,7 +111,7 @@
 <RelativeLayout
    android:layout_height="fill_parent"
    android:layout_width="50dp"
-   android:layout_toRightof="@+id/scrollView1"
+   android:layout_toRight="@id/scrollView1"
    >
 
 <Button
