@@ -110,7 +110,7 @@
     <ImageButton
         android:id="@+id/fiveforty"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="304px"
         android:layout_below="@+id/standard"
         android:src="@drawable/washav540front" />
     
