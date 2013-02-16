@@ -24,12 +24,26 @@ public class MainActivity extends Activity implements ScrollViewListener {
     }
 
     public void onScrollChanged(ObservableScrollView scrollView, int x, int y, int oldx, int oldy) {
-        if(scrollView == scrollView1) {
-            scrollView2.scrollTo(x,y);
-        } else if(scrollView == scrollView2) {
-            scrollView1.scrollTo(x,y);
-        }
+
+    if(scrollView == scrollView1) {
+        scrollView2.scrollTo(x, y);
+        scrollView3.scrollTo(x, y);
+        scrollView4.scrollTo(x, y);
+    } else if(scrollView == scrollView2) {
+        scrollView1.scrollTo(x, y);
+        scrollView3.scrollTo(x, y);
+        scrollView4.scrollTo(x, y);
+    } else if(scrollView == scrollView3) {
+        scrollView1.scrollTo(x, y);
+        scrollView2.scrollTo(x, y);
+        scrollView4.scrollTo(x, y);
+    } else if(scrollView == scrollView4) {
+        scrollView1.scrollTo(x, y);
+        scrollView2.scrollTo(x, y);
+        scrollView3.scrollTo(x, y);
     }
+
+  }
 
 }
 
