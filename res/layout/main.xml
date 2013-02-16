@@ -145,7 +145,7 @@
         android:background="@drawable/circle"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="700dp"
+        android:layout_marginTop="9000dp"
         android:text="@string/c"/>
 
 </LinearLayout>
