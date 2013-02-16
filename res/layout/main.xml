@@ -171,7 +171,7 @@
   
  <com.loqoo.streets.ObservableScrollView
    android:id="@+id/scrollView2"
-   android:layout_width="351dp"
+   android:layout_width="200dp"
    android:layout_height="fill_parent"
    android:fillViewport="false"
    android:layout_alignParentRight="true"
