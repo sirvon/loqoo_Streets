@@ -158,13 +158,6 @@
    android:background="@drawable/borderl"
    android:layout_alignParentRight="true">
 
-<View   
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:background="@drawable/circle"
-        android:layout_marginRight="10dp"
-        android:text="@string/c"/>
-
 </RelativeLayout>
 
 
