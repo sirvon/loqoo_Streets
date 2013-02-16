@@ -23,7 +23,7 @@ public class MainActivity extends Activity implements ScrollViewListener {
         scrollView2.setScrollViewListener(this);
         scrollView3 = (ObservableScrollView) findViewById(R.id.washav_east_sidewalk);
         scrollView3.setScrollViewListener(this);
-        scrollView4 = (ObservableScrollView) findViewById(R.id.scrollView4);
+        scrollView4 = (ObservableScrollView) findViewById(R.id.washav_west_sidewalk);
         scrollView4.setScrollViewListener(this);
 
       
