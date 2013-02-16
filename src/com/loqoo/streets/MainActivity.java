@@ -17,13 +17,13 @@ public class MainActivity extends Activity implements ScrollViewListener {
         setContentView(R.layout.main);
         
 
-        scrollView1 = (ObservableScrollView) findViewById(R.id.scrollView1);
+        scrollView1 = (ObservableScrollView) findViewById(R.id.washav_west_biz);
         scrollView1.setScrollViewListener(this);
-        scrollView2 = (ObservableScrollView) findViewById(R.id.scrollView2);
+        scrollView2 = (ObservableScrollView) findViewById(R.id.washav_east_biz);
         scrollView2.setScrollViewListener(this);
-        scrollView3 = (ObservableScrollView) findViewById(R.id.westav_east_sidewalk);
+        scrollView3 = (ObservableScrollView) findViewById(R.id.washav_east_sidewalk);
         scrollView3.setScrollViewListener(this);
-        scrollView4 = (ObservableScrollView) findViewById(R.id.westav_west_sidewalk);
+        scrollView4 = (ObservableScrollView) findViewById(R.id.washav_west_sidewalk);
         scrollView4.setScrollViewListener(this);
 
       
