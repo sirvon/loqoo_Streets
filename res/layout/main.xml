@@ -123,7 +123,7 @@
    android:layout_width="150dp"
    android:layout_height="fill_parent"
    android:fillViewport="false"
-   android:layout_toRightOf="@id/scrollView1"
+   android:layout_toRightOf="@id/washav_west_biz"
    android:scrollbars="none" >
   <LinearLayout
    android:layout_width="fill_parent"
@@ -345,7 +345,7 @@
    android:layout_width="150dp"
    android:layout_height="fill_parent"
    android:fillViewport="false"
-   android:layout_toLeftOf="@id/scrollView2"
+   android:layout_toLeftOf="@id/washav_east_biz"
    android:scrollbars="none" >
   <LinearLayout
    android:layout_width="fill_parent"
