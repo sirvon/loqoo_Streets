@@ -19,8 +19,12 @@ public class MainActivity extends Activity implements ScrollViewListener {
         scrollView1.setScrollViewListener(this);
         scrollView2 = (ObservableScrollView) findViewById(R.id.scrollView2);
         scrollView2.setScrollViewListener(this);
+        scrollView3 = (ObservableScrollView) findViewById(R.id.scrollView3);
+        scrollView3.setScrollViewListener(this);
+        scrollView4 = (ObservableScrollView) findViewById(R.id.scrollView24);
+        scrollView4.setScrollViewListener(this);
 
-        scrollView1.fullScroll(ScrollView.FOCUS_DOWN);
+      
     }
 
     public void onScrollChanged(ObservableScrollView scrollView, int x, int y, int oldx, int oldy) {
