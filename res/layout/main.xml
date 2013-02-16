@@ -294,9 +294,16 @@
         android:layout_width="300px"
         android:layout_height="161px"
         android:src="@drawable/fivefiftyfive" />
+    
+    <View android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"
+        android:layout_toLeftOf="fivefiftyfive"
+        android:layout_marginRight="10dp"
+        android:text="@string/c"/>
 
     <ImageButton
-        android:id="@+id/fivefiftyfive"
+        android:id="@+id/fivefiftyfive1"
         android:layout_width="300px"
         android:layout_height="161px"
         android:src="@drawable/fivefiftyfive" /> 
