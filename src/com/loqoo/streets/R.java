@@ -28,11 +28,11 @@ public final class R {
         public static final int fivefiftyfive1=0x7f050008;
         public static final int fiveforty=0x7f050004;
         public static final int fstwash=0x7f050003;
+        public static final int scrollView4=0x7f050005;
         public static final int standard=0x7f050001;
         public static final int washav_east_biz=0x7f050006;
         public static final int washav_east_sidewalk=0x7f050009;
         public static final int washav_west_biz=0x7f050000;
-        public static final int washav_west_sidewalk=0x7f050005;
         public static final int webview=0x7f05000a;
     }
     public static final class layout {
