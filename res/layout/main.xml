@@ -122,6 +122,15 @@
    android:layout_width="350dp"
    android:background="@drawable/borderl"
    android:layout_alignParentRight="true">
+
+<View   
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"
+        android:layout_toLeftOf="@id/fivefiftyfive"
+        android:layout_marginRight="10dp"
+        android:text="@string/c"/>
+
 </RelativeLayout>
 
 
@@ -294,13 +303,6 @@
         android:layout_width="300px"
         android:layout_height="161px"
         android:src="@drawable/fivefiftyfive" />
-    
-    <View android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/circle"
-        android:layout_toLeftOf="@id/fivefiftyfive"
-        android:layout_marginRight="10dp"
-        android:text="@string/c"/>
 
     <ImageButton
         android:id="@+id/fivefiftyfive1"
