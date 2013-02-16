@@ -24,9 +24,9 @@
    android:orientation="vertical" >
     <Button
         android:id="@+id/standard"
-        android:layout_width="200dp"
+        android:layout_width="75dp"
         android:layout_height="150dp"
-
+        android:layout_marginLeft="50dp"
         android:text="@string/standard" />
 
     <Button
@@ -119,34 +119,34 @@
 
 
  <com.loqoo.streets.ObservableScrollView
-   android:id="@+id/scrollView1a"
-   android:layout_width="51dp"
+   android:id="@+id/washav_west_sidewalk"
+   android:layout_width="150dp"
    android:layout_height="fill_parent"
    android:fillViewport="false"
    android:layout_toRightOf="@id/scrollView1"
    android:scrollbars="none" >
   <LinearLayout
    android:layout_width="fill_parent"
-   android:layout_height="wrap_content"
-   android:orientation="vertical" >
-    <Button
-        android:id="@+id/standard"
-        android:layout_width="20dp"
-        android:layout_height="150dp"
-        android:text="@string/standard" />
-    <Button
-        android:id="@+id/custom"
-        android:layout_width="25px"
-        android:layout_height="150px"
-        android:layout_below="@+id/standard"
-        android:text="@string/custom" />
-    <Button
+   android:layout_height="1000dp"
+   android:orientation="vertical"
+   android:layout_alignParentRight="true" >
+
+  <Button
         android:id="@+id/fstwash"
-        android:layout_width="51px"
+        android:layout_width="100px"
         android:layout_height="200px"
         android:background="#000000"
         android:layout_marginBottom="50dp" />
         android:layout_marginTop="50dp" />
+
+  <View   
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/circle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="700dp"
+        android:text="@string/c"/>
 
 </LinearLayout>
 </com.loqoo.streets.ObservableScrollView>
@@ -346,4 +346,37 @@
    
     </LinearLayout>
  </com.loqoo.streets.ObservableScrollView>
+
+ <com.loqoo.streets.ObservableScrollView
+   android:id="@+id/washav_east_sidewalk"
+   android:layout_width="150dp"
+   android:layout_height="fill_parent"
+   android:fillViewport="false"
+   android:layout_toLeftOf="@id/scrollView2"
+   android:scrollbars="none" >
+  <LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="1000dp"
+   android:orientation="vertical"
+   android:layout_alignParentRight="true" >
+
+    <Button
+        android:id="@+id/fstwash"
+        android:layout_width="100px"
+        android:layout_height="200px"
+        android:background="#000000"
+        android:layout_marginBottom="50dp" />
+        android:layout_marginTop="50dp" />
+
+  <View   
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/circle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="700dp"
+        android:text="@string/c"/>
+
+</LinearLayout>
+</com.loqoo.streets.ObservableScrollView> 
 </RelativeLayout>
