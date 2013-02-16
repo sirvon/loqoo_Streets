@@ -121,7 +121,7 @@
  <com.loqoo.streets.ObservableScrollView
    android:id="@+id/washav_west_sidewalk"
    android:layout_width="150dp"
-   android:layout_height="fill_parent"
+   android:layout_height="10000dp"
    android:fillViewport="false"
    android:layout_toRightOf="@id/washav_west_biz"
    android:scrollbars="none" >
@@ -145,7 +145,7 @@
         android:background="@drawable/circle"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="9000dp"
+        android:layout_marginTop="1000dp"
         android:text="@string/c"/>
 
 </LinearLayout>
