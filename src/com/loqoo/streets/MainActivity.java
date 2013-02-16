@@ -8,6 +8,8 @@ public class MainActivity extends Activity implements ScrollViewListener {
 
     private ObservableScrollView scrollView1 = null;
     private ObservableScrollView scrollView2 = null;
+    private ObservableScrollView scrollView3 = null;
+    private ObservableScrollView ScrollView4 = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +23,7 @@ public class MainActivity extends Activity implements ScrollViewListener {
         scrollView2.setScrollViewListener(this);
         scrollView3 = (ObservableScrollView) findViewById(R.id.scrollView3);
         scrollView3.setScrollViewListener(this);
-        scrollView4 = (ObservableScrollView) findViewById(R.id.scrollView24);
+        scrollView4 = (ObservableScrollView) findViewById(R.id.scrollView4);
         scrollView4.setScrollViewListener(this);
 
       
