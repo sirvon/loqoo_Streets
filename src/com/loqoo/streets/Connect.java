@@ -10,6 +10,7 @@ import org.apache.http.StatusLine;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.JSONObject;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -45,6 +46,30 @@ import android.widget.*;
         }        
         return stringBuilder.toString();
     }
+
+private class ReadWeatherJSONFeedTask extends AsyncTask
+    <String, Void, String> {
+        protected String doInBackground(String... urls) {
+            return readJSONFeed(urls[0]);
+        }
+ 
+        protected void onPostExecute(String result) {
+            try {
+                JSONObject jsonObject = new JSONObject(result);
+                JSONObject weatherObservationItems = 
+                    new JSONObject(jsonObject.getString("weatherObservation"));
+ 
+                Toast.makeText(getBaseContext(), 
+                    weatherObservationItems.getString("clouds") + 
+                 " - " + weatherObservationItems.getString("stationName"), 
+                 Toast.LENGTH_SHORT).show();
+            } catch (Exception e) {
+                Log.d("ReadWeatherJSONFeedTask", e.getLocalizedMessage());
+            }          
+        }
+    }
+
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -52,4 +77,14 @@ import android.widget.*;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.connect);
     }
+    
+    public void btnGetWeather(View view) {
+        EditText txtLat = (EditText) findViewById(R.id.txtLat);
+        EditText txtLong = (EditText) findViewById(R.id.txtLong);
+
+        new ReadWeatherJSONFeedTask().execute(
+            "http://ws.geonames.org/findNearByWeatherJSON?lat=" +
+            txtLat.getEditableText().toString() + "&lng=" +
+            txtLong.getText().toString());
+
 }
