@@ -1,4 +1,4 @@
-package com.loqoo.streets
+package com.loqoo.streets;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
