@@ -19,7 +19,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.*;
 
- 
+ public class Connect extends Activity {
+
     public String readJSONFeed(String URL) {
         StringBuilder stringBuilder = new StringBuilder();
         HttpClient httpClient = new DefaultHttpClient();
@@ -86,5 +87,8 @@ private class ReadWeatherJSONFeedTask extends AsyncTask
             "http://ws.geonames.org/findNearByWeatherJSON?lat=" +
             txtLat.getEditableText().toString() + "&lng=" +
             txtLong.getText().toString());
+
+   } 
+
 
 }
