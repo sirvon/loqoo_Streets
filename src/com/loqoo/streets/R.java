@@ -23,21 +23,25 @@ public final class R {
         public static final int washav555front=0x7f020009;
     }
     public static final class id {
-        public static final int custom=0x7f050002;
-        public static final int fivefiftyfive=0x7f050007;
-        public static final int fivefiftyfive1=0x7f050008;
-        public static final int fiveforty=0x7f050004;
-        public static final int fstwash=0x7f050003;
-        public static final int standard=0x7f050001;
-        public static final int washav_east_biz=0x7f050006;
-        public static final int washav_east_sidewalk=0x7f050009;
-        public static final int washav_west_biz=0x7f050000;
-        public static final int washav_west_sidewalk=0x7f050005;
-        public static final int webview=0x7f05000a;
+        public static final int custom=0x7f050005;
+        public static final int fivefiftyfive=0x7f05000a;
+        public static final int fivefiftyfive1=0x7f05000b;
+        public static final int fiveforty=0x7f050007;
+        public static final int fstwash=0x7f050006;
+        public static final int standard=0x7f050004;
+        public static final int txtLat=0x7f050000;
+        public static final int txtLong=0x7f050001;
+        public static final int txtPostalCode=0x7f050002;
+        public static final int washav_east_biz=0x7f050009;
+        public static final int washav_east_sidewalk=0x7f05000c;
+        public static final int washav_west_biz=0x7f050003;
+        public static final int washav_west_sidewalk=0x7f050008;
+        public static final int webview=0x7f05000d;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int webview=0x7f030001;
+        public static final int connect=0x7f030000;
+        public static final int main=0x7f030001;
+        public static final int webview=0x7f030002;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
