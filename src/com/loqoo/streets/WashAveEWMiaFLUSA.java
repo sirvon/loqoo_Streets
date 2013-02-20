@@ -18,7 +18,7 @@ public class WashAveEWMiaFLUSA extends Activity implements ScrollViewListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.washave_ew_mia_flusa);
+        setContentView(R.layout.washave_ew_miafl_usa);
 
         Button connect = (Button)findViewById(R.id.custom);
 
