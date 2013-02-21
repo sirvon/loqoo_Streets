@@ -17,6 +17,17 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main);
 
 
+Button washaveewmiaflusa = (Button)findViewById(R.id.towashave_ew_miafl_usa);
+
+        washaveewmiaflusa.setOnClickListener(new View.OnClickListener() {
+
+           @Override
+           public void onClick(View view) {
+             Intent intent = new Intent(MainActivity.this, WashAveEWMiaFLUSA.class);
+               startActivity(intent);
+           }
+        });
+
   }
 
 }
