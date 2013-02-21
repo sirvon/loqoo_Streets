@@ -24,26 +24,27 @@ public final class R {
         public static final int washav555front=0x7f02000a;
     }
     public static final class id {
-        public static final int custom=0x7f05000b;
-        public static final int find_coordinates_button=0x7f050007;
-        public static final int fivefiftyfive=0x7f050010;
-        public static final int fivefiftyfive1=0x7f050011;
-        public static final int fiveforty=0x7f05000d;
-        public static final int fstwash=0x7f05000c;
-        public static final int point_latitude=0x7f050005;
-        public static final int point_longitude=0x7f050006;
-        public static final int save_point_button=0x7f050008;
+        public static final int custom=0x7f05000c;
+        public static final int find_coordinates_button=0x7f050008;
+        public static final int fivefiftyfive=0x7f050011;
+        public static final int fivefiftyfive1=0x7f050012;
+        public static final int fiveforty=0x7f05000e;
+        public static final int fstwash=0x7f05000d;
+        public static final int point_latitude=0x7f050006;
+        public static final int point_longitude=0x7f050007;
+        public static final int prox=0x7f050005;
+        public static final int save_point_button=0x7f050009;
         public static final int splashlogo=0x7f050003;
-        public static final int standard=0x7f05000a;
+        public static final int standard=0x7f05000b;
         public static final int towashave_ew_miafl_usa=0x7f050004;
         public static final int txtLat=0x7f050000;
         public static final int txtLong=0x7f050001;
         public static final int txtPostalCode=0x7f050002;
-        public static final int washav_east_biz=0x7f05000f;
-        public static final int washav_east_sidewalk=0x7f050012;
-        public static final int washav_west_biz=0x7f050009;
-        public static final int washav_west_sidewalk=0x7f05000e;
-        public static final int webview=0x7f050013;
+        public static final int washav_east_biz=0x7f050010;
+        public static final int washav_east_sidewalk=0x7f050013;
+        public static final int washav_west_biz=0x7f05000a;
+        public static final int washav_west_sidewalk=0x7f05000f;
+        public static final int webview=0x7f050014;
     }
     public static final class layout {
         public static final int connect=0x7f030000;
