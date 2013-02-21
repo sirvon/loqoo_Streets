@@ -16,5 +16,11 @@
         android:layout_height="200dp" />
 
 
+<Button
+        android:id="@+id/prox"
+        android:layout_width="100dp"
+        android:layout_height="200dp" />
+
+
 
 </RelativeLayout>
