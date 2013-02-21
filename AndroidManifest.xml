@@ -41,6 +41,13 @@
            android:name=".WashAveEWMiaFLUSA"
            android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
+        <activity
+           android:name=".ProxAlertActivity" >
+        </activity>
+
+        <reciever
+           android:name=".ProximityIntentReciever" >
+        </reciever>
 
     </application>
  
