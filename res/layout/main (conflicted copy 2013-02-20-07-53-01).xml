@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+<ImageView
+    android:id="@+id/splashlogo"
+    android:src="@drawable/splashlogo" 
+    android:layout_height="248dp"
+    android:layout_width="252dp" />
+
+<Button
+        android:id="@+id/towashave_ew_miafl_usa"
+        android:layout_width="100dp"
+        android:layout_height="200dp" />
+
+
+
+</RelativeLayout>
