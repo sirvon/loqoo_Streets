@@ -131,22 +131,7 @@
    android:orientation="vertical"
    android:layout_alignParentRight="true" >
 
-  <Button
-        android:id="@+id/fstwash"
-        android:layout_width="100px"
-        android:layout_height="200px"
-        android:background="#000000"
-        android:layout_marginBottom="50dp" />
-        android:layout_marginTop="50dp" />
-
-  <View   
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:background="@drawable/circle"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="1000dp"
-        android:text="@string/c"/>
+ 
 
 </LinearLayout>
 </com.loqoo.streets.ObservableScrollView>
@@ -352,24 +337,7 @@
    android:layout_height="1000dp"
    android:orientation="vertical"
    android:layout_alignParentRight="true" >
-
-    <Button
-        android:id="@+id/fstwash"
-        android:layout_width="100px"
-        android:layout_height="200px"
-        android:background="#000000"
-        android:layout_marginBottom="50dp" />
-        android:layout_marginTop="50dp" />
-
-  <View   
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:background="@drawable/circle"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="700dp"
-        android:text="@string/c"/>
-
+ 
 </LinearLayout>
 </com.loqoo.streets.ObservableScrollView> 
 </RelativeLayout>
