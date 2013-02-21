@@ -26,7 +26,7 @@ public class WashAveEWMiaFLUSA extends Activity implements ScrollViewListener {
 
            @Override
            public void onClick(View view) {
-             Intent intent = new Intent(MainActivity.this, Connect.class);
+             Intent intent = new Intent(WashAveEWMiaFLUSA.this, Connect.class);
                startActivity(intent);
            }
         });
