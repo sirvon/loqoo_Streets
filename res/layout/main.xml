@@ -6,7 +6,15 @@
 
 <ImageView
     android:id="@+id/splashlogo"
-    android:src="@drawable/splashlogo"
-    android:
+    android:src="@drawable/splashlogo" 
+    android:layout_height="248dp"
+    android:layout_width="252dp" />
+
+<Button
+        android:id="@+id/towashave_ew_miafl_usa"
+        android:layout_width="100dp"
+        android:layout_height="200dp" />
+
+
 
 </RelativeLayout>
