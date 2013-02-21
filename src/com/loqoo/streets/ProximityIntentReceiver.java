@@ -1,4 +1,4 @@
-package com.loqoo.streets
+package com.loqoo.streets;
 
 import android.app.Notification;
 import android.app.NotificationManager;

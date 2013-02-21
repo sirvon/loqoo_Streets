@@ -1,4 +1,4 @@
-package com.loqoo.streets
+package com.loqoo.streets;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
