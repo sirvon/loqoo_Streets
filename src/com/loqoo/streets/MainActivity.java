@@ -28,6 +28,18 @@ Button washaveewmiaflusa = (Button)findViewById(R.id.towashave_ew_miafl_usa);
            }
         });
 
+Button prox = (Button)findViewById(R.id.prox);
+
+        prox.setOnClickListener(new View.OnClickListener() {
+
+           @Override
+           public void onClick(View view) {
+             Intent intent = new Intent(MainActivity.this, ProxAlertActivity.class);
+               startActivity(intent);
+           }
+        });
+
+
   }
 
 }
