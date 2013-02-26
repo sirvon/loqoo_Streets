@@ -57,6 +57,8 @@ public class AppMusic extends Service {
                  }
 
                  public void onPause() {
+                            player.stop();
+                            player.release();
                  }             
 
                 @Override
