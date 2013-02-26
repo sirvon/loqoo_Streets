@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
                                                      };
         AppEngine.musicThread.start();
   };
-};
+}
 
 @Override
     protected void onPause() {
@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
             }catch(Exception e){
                 return false;
              }
-            };
+            }
 
 @Override
     protected void onStop() {
@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
             }catch(Exception e){
                 return false;
              }
-            };
+            }
 
 
     }
