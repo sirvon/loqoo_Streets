@@ -23,7 +23,8 @@ public class MainActivity extends Activity {
                                              AppEngine.context = getApplicationContext();
                                                      };
         AppEngine.musicThread.start();
-  }
+  };
+}
 
 @Override
   protected void onPause {
@@ -33,7 +34,7 @@ public class MainActivity extends Activity {
                                              AppEngine.context = getApplicationContext();
                                       };
         AppEngine.musicThread.stop();
-}
+};
 
 @Override
   protected void onStop {
@@ -44,7 +45,11 @@ public class MainActivity extends Activity {
                                       };
         AppEngine.musicThread.stop();
 
-  }
+  };
+
+
+
+}
 
 
 
