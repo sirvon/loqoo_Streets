@@ -24,9 +24,9 @@ public class MainActivity extends Activity {
                                                                                        };
         AppEngine.musicThread.start();
   }
-  
+
 @Override
-  protected void onPause(Bundle savedInstanceState) {
+  protected void onPause {
     
                                              Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
                                              stopService(bgmusic);
@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
         AppEngine.musicThread.stop();
 
 @Override
-  protected void onStop(Bundle savedInstanceState) {
+  protected void onStop {
          
                                              Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
                                              stopService(bgmusic);
