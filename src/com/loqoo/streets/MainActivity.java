@@ -27,29 +27,22 @@ public class MainActivity extends Activity {
 }
 
 @Override
-  protected void onPause {
-                            public void call() {
-                                             Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
-                                             stopService(bgmusic);
-                                             AppEngine.context = getApplicationContext();
-                                      };
-        AppEngine.musicThread.stop();
-};
-
-@Override
-  protected void onStop {
-                            public void run() {
-                                             Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
-                                             stopService(bgmusic);
-                                             AppEngine.context = getApplicationContext();
-                                      };
-        AppEngine.musicThread.stop();
-
-  };
+    protected void onPause {
+            try
+            {
+                Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
+                stopService(bgmusic);
+                AppEngine.context = getApplicationContext();
+                AppEngine.musicThread.stop();
+                return true;
+            }catch(Exception e){
+                return false;
+             }
+            };
 
 
+    }
 
-}
 
 
 
