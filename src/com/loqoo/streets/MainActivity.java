@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
                                              AppEngine.context = getApplicationContext();
                                              }
                                             };
-        AppEngine.musicThread.start();
+        AppEngine.musicThread.stop();
   }
 
 }
