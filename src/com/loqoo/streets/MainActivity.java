@@ -21,29 +21,24 @@ public class MainActivity extends Activity {
                                              Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
                                              startService(bgmusic);
                                              AppEngine.context = getApplicationContext();
-                                             }
-                                            };
+                                                                                       };
         AppEngine.musicThread.start();
   }
-
+@Override
   protected void onPause(Bundle savedInstanceState) {
-        try
-        {
+    
                                              Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
                                              stopService(bgmusic);
                                              AppEngine.context = getApplicationContext();
-                                             }
-                                            };
+                                                                          };
         AppEngine.musicThread.stop();
-
+@Override
   protected void onStop(Bundle savedInstanceState) {
-          try
-        {
+         
                                              Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
                                              stopService(bgmusic);
                                              AppEngine.context = getApplicationContext();
-                                             }
-                                            };
+                                                               };
         AppEngine.musicThread.stop(); 
 
   }
