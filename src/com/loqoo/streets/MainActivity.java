@@ -23,8 +23,8 @@ public class MainActivity extends Activity {
                                              AppEngine.context = getApplicationContext();
                                                      };
         AppEngine.musicThread.start();
-  };
-}
+  }
+};
 
 @Override
     protected void onPause() {
