@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
 
 @Override
   protected void onPause {
-                            public void run() {
+                            public void call() {
                                              Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
                                              stopService(bgmusic);
                                              AppEngine.context = getApplicationContext();
