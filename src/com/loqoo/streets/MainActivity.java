@@ -22,9 +22,10 @@ public class MainActivity extends Activity {
                                              startService(bgmusic);
                                              AppEngine.context = getApplicationContext();
                                                      };
+                                    };
         AppEngine.musicThread.start();
-  };
-}
+  
+
 
 @Override
     protected void onPause() {
