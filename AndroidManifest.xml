@@ -4,7 +4,7 @@
     android:versionName="1.0" >
  
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="10"
         android:targetSdkVersion="15" />
  
     <uses-permission  
@@ -22,10 +22,6 @@
         <activity
             android:name=".MainActivity"
             android:theme="@android:style/Theme.NoTitleBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
@@ -42,13 +38,26 @@
            android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-           android:name=".ProxAlertActivity" >
+           android:name=".Splash1" 
+           android:screenOrientation="portrait"
+           android:theme="@android:style/Theme.NoTitleBar">
+             <intent-filter>
+                             <action android:name="android.intent.action.MAIN"/>
+                             <category android:name="android.intent.category.LAUNCHER"/>
+             </intent-filter>
         </activity>
 
-        <reciever
-           android:name=".ProximityIntentReciever" >
-        </reciever>
+        <service
+          android:name=".AppMusic" >
+        </service>
 
     </application>
  
+ <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+
 </manifest>
