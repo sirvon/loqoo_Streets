@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main);
 
         AppEngine.musicThread = new Thread() {
-                            public void Run() {
+                            public void run() {
                                              Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
                                              startService(bgmusic);
                                              AppEngine.context = getApplicationContext();
