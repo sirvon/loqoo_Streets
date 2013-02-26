@@ -34,13 +34,15 @@ public class MainActivity extends Activity {
                                       };
         AppEngine.musicThread.stop();
 }
+
 @Override
   protected void onStop {
+                            public void run() {
                                              Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
                                              stopService(bgmusic);
                                              AppEngine.context = getApplicationContext();
-                                   };
-        AppEngine.musicThread.stop(); 
+                                      };
+        AppEngine.musicThread.stop();
 
   }
 
