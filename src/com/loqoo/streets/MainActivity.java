@@ -24,6 +24,9 @@ public class MainActivity extends Activity {
                                              }
                                             };
         AppEngine.musicThread.start();
+  }
+
+  protected void onPause(Bundle savedInstanceState) {
 
   }
 
