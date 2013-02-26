@@ -27,7 +27,14 @@ public class MainActivity extends Activity {
   }
 
   protected void onPause(Bundle savedInstanceState) {
-
+        AppEngine.musicThread = new Thread() {
+                            public void run() {
+                                             Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
+                                             stopService(bgmusic);
+                                             AppEngine.context = getApplicationContext();
+                                             }
+                                            };
+        AppEngine.musicThread.start();
   }
 
 }
