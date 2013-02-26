@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
                                                                                        };
         AppEngine.musicThread.start();
   }
+  
 @Override
   protected void onPause(Bundle savedInstanceState) {
     
@@ -32,6 +33,7 @@ public class MainActivity extends Activity {
                                              AppEngine.context = getApplicationContext();
                                                                           };
         AppEngine.musicThread.stop();
+
 @Override
   protected void onStop(Bundle savedInstanceState) {
          
