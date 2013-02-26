@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.content.Context;
 
 public class AppMusic extends Service {
+
              public static boolean isRunning = false;
              MediaPlayer player;
 
@@ -33,8 +34,7 @@ public class AppMusic extends Service {
                      {
                             player.start();
                             isRunning = true;
-                                         }
-                            catch(Exception e){
+                                         }catch(Exception e){
                             isRunning = false;
                             player.stop();
                                          }                                          
