@@ -28,6 +28,7 @@ public class AppMusic extends Service {
                              player = MediaPlayer.create(context, soundFile);
                              player.setLooping(isLooped);
                              player.setVolume(rVolume,lVolume);
+                             audio = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
                              player.setAudioStreamType(AudioManager.STREAM_ALARM);
             }
               
