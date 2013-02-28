@@ -45,10 +45,19 @@ public class MainActivity extends Activity {
                                     };
         AppEngine.musicThread.start();
 
+AudioManager mAudioManager = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);    
+
+if (mAudioManager.isMusicActive()) {
+
+    Intent i = new Intent("com.android.music.musicservicecommand");
+
+    i.putExtra("command", "pause");
+    MainActivity.this.sendBroadcast(i);
+} 
+
         }
    
     }
-
 
 
 
