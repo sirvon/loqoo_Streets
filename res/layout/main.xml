@@ -16,7 +16,7 @@
         android:layout_width="100dp"
         android:layout_height="700dp"
         android:text="LoQooStreets"
-        =@id/splashlogo>
+        android:layout_toRightOf=@id/splashlogo>
  />
 
 
