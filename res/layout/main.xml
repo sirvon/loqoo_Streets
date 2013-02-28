@@ -24,7 +24,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="LoQooTv"
-        android:layout_below="@id/towashave_ew_miafl_usa">
+        android:layout_alignRight="@id/towashave_ew_miafl_usa">
  />
 
  <Button
