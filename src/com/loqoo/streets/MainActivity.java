@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.widget.ScrollView;
 import android.view.View.OnClickListener;
 import android.view.View;
-import android.widget.Button;
 import android.content.Intent;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
@@ -15,47 +15,19 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        
 
-        AppEngine.musicThread = new Thread() {
+AppEngine.musicThread = new Thread() {
                             public void run() {
-                                             Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
-                                             startService(bgmusic);
-                                             AppEngine.context = getApplicationContext();
+                                          Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
+                                          startService(bgmusic);
+                                          AppEngine.context = getApplicationContext();
                                                      };
                                     };
         AppEngine.musicThread.start();
-  
 
-
-@Override
-    protected void onPause() {
-            try
-            {
-                Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
-                stopService(bgmusic);
-                AppEngine.context = getApplicationContext();
-                AppEngine.musicThread.stop();
-                return true;
-            }catch(Exception e){
-                return false;
-             }
-            }
-
-@Override
-    protected void onStop() {
-            try
-            {
-                Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
-                stopService(bgmusic);
-                AppEngine.context = getApplicationContext();
-                AppEngine.musicThread.stop();
-                return true;
-            }catch(Exception e){
-                return false;
-             }
-            }
-
-
+        }
+   
     }
 
 
