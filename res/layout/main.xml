@@ -14,7 +14,7 @@
 <Button
         android:id="@+id/towashave_ew_miafl_usa"
         android:layout_width="100dp"
-        android:layout_height="700dp"
+        android:layout_height="100dp"
         android:text="LoQooStreets"
         android:layout_toRightOf=@id/splashlogo>
  />
@@ -22,7 +22,7 @@
 <Button
         android:id="@+id/loqootvlist"
         android:layout_width="100dp"
-        android:layout_height="1000dp"
+        android:layout_height="100dp"
         android:text="LoQooTv"
         android:layout_below="@id/towashave_ew_miafl_usa">
  />
