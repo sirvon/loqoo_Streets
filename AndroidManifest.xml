@@ -47,6 +47,11 @@
              </intent-filter>
         </activity>
 
+          <activity 
+           android:name=".LoqooTvList"
+           android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
         <service
           android:name=".AppMusic" >
         </service>
