@@ -8,12 +8,15 @@
     android:id="@+id/splashlogo"
     android:src="@drawable/splashlogo" 
     android:layout_height="248dp"
-    android:layout_width="252dp" />
+    android:layout_width="252dp" 
+    />
 
 <Button
         android:id="@+id/towashave_ew_miafl_usa"
         android:layout_width="100dp"
         android:layout_height="700dp"
+        android:text="LoQooStreets"
+        =@id/splashlogo>
  />
 
 
@@ -21,6 +24,8 @@
         android:id="@+id/loqootvlist"
         android:layout_width="100dp"
         android:layout_height="1000dp"
+        android:text="LoQooTv"
+        android:layout_below="@id/towashave_ew_miafl_usa">
  />
 
 
