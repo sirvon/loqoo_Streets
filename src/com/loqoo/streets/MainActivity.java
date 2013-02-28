@@ -12,13 +12,19 @@ public class MainActivity extends Activity {
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+      protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        final Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
+      final Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
 
-        buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
+              buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
+
+    @Override
+      public void onClick(View arg0) {
+
+               Intent intent = new Intent(context, LoqooTvList.class);
+                                              context.startActivity(intent);
 }
 
 }
