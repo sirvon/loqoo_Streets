@@ -19,7 +19,6 @@
         android:layout_toRightOf=@id/splashlogo>
  />
 
-
 <Button
         android:id="@+id/loqootvlist"
         android:layout_width="100dp"
