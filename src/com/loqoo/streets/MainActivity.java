@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
       buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
 
               @Override
-              public void onClick(View arg0) {
+              public void onClick(View view) {
                   Intent intent = new Intent(context, LoqooTvList.class);
                                                       context.startActivity(intent);
         }
