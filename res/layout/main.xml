@@ -27,6 +27,14 @@
         android:layout_below="@id/towashave_ew_miafl_usa">
  />
 
+ <Button
+        android:id="@+id/loqootvlist"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="KillTime"
+        android:layout_below="@id/loqootvlist">
+ />
+
 
 
 </RelativeLayout>
