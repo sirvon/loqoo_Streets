@@ -21,7 +21,7 @@
         android:id="@+id/loqootvlist"
         android:layout_width="100dp"
         android:layout_height="1000dp"
-        android:layout_toRightOf="@id/towashave_ew_miafl_usa"
+        android:layout_below="@id/towashave_ew_miafl_usa"
  />
 
 
