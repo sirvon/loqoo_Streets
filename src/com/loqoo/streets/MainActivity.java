@@ -16,17 +16,24 @@ public class MainActivity extends Activity {
       protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
-      Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
+        Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
 
       buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
-
-              @Override
+            @Override
               public void onClick(View v) {
-                  Intent intent = new Intent(MainActivity.this, LoqooTvList.class);
-                                                      startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, LoqooTvList.class);
+                startActivity(intent);
         }
+});
 
+          Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
+        
+      buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
+            @Override
+              public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LoqooTvList.class);
+                startActivity(intent);
+        }
 });
 
 AppEngine.musicThread = new Thread() {
