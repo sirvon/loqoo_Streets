@@ -4,6 +4,7 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.media.MediaPlayer;
+import android.media.AudioManager;
 import android.content.Context;
 
 public class AppMusic extends Service {
@@ -27,6 +28,7 @@ public class AppMusic extends Service {
                              player = MediaPlayer.create(context, soundFile);
                              player.setLooping(isLooped);
                              player.setVolume(rVolume,lVolume);
+                             player.setAudioStreamType(AudioManager.STREAM_ALARM);
             }
               
 
@@ -77,4 +79,3 @@ public class AppMusic extends Service {
                  }
 
   } 
-
