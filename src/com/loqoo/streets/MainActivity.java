@@ -51,7 +51,7 @@ if (mAudioManager.isMusicActive()) {
 
     Intent i = new Intent("com.android.music.musicservicecommand");
 
-    i.putExtra("command", "pause");
+    i.putExtra("command", "togglepause");
     MainActivity.this.sendBroadcast(i);
 } 
 
