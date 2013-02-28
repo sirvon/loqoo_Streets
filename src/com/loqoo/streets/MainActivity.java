@@ -16,6 +16,12 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
+        final Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
+
+        buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
+}
+
+}
 
 AppEngine.musicThread = new Thread() {
                             public void run() {
