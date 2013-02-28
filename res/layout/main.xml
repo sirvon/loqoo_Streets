@@ -13,7 +13,7 @@
 
 <Button
         android:id="@+id/towashave_ew_miafl_usa"
-        android:layout_width="100dp"
+        android:layout_width="200dp"
         android:layout_height="100dp"
         android:text="LoQooStreets"
         android:layout_toRightOf="@id/splashlogo">
@@ -28,7 +28,7 @@
  />
 
  <Button
-        android:id="@+id/loqootvlist"
+        android:id="@+id/killtime"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="KillTime"
