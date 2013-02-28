@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
         }
 });
 
-          Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
+          Button buttonloqooTvList = (Button)findViewById(R.id.towashave_ew_miafl_usa);
         
       buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
             @Override
