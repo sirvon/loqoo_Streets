@@ -4,11 +4,98 @@
     android:layout_height="match_parent"
     android:background="#000000">
 
+<Button
+        android:id="@+id/test"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:visibility="gone" />
+
+<ViewFlipper
+ android:id="@+id/splash_flipper"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent">
+
 <ImageView
-    android:id="@+id/splashlogo1"
+    android:id="@+id/splash_dope"
+    android:src="@drawable/dope" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+/>
+
+<ImageView
+    android:id="@+id/splash_boys"
+    android:src="@drawable/boys" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+<ImageView
+    android:id="@+id/splashlogo"
+    android:src="@drawable/splashlogo" 
+    android:layout_height="248dp"
+    android:layout_width="252dp" />
+
+<Button
+        android:id="@+id/towashave_ew_miafl_usa"
+        android:layout_width="100dp"
+        android:layout_height="700dp" />
+
+
+<Button
+        android:id="@+id/prox"
+        android:layout_width="100dp"
+        android:layout_height="200dp" />
+
+</RelativeLayout>
+
+<ImageView
+    android:id="@+id/splash_and"
+    android:src="@drawable/and" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+/>
+
+<ImageView
+    android:id="@+id/splash_girls"
+    android:src="@drawable/girls" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+/>
+
+
+
+<ImageView
+    android:id="@+id/splash_kt"
     android:src="@drawable/kt_logo" 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 />
+
+
+
+</ViewFlipper>
+
+<ImageView
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+/>
+
+<ImageView
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+/>
+
+<ImageView
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+/>
+
+
+
 
 </FrameLayout>
