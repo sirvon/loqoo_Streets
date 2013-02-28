@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
                                                       context.startActivity(intent);
         }
 
-}
+});
 
 AppEngine.musicThread = new Thread() {
                             public void run() {
