@@ -13,13 +13,15 @@
 <Button
         android:id="@+id/towashave_ew_miafl_usa"
         android:layout_width="100dp"
-        android:layout_height="700dp" />
+        android:layout_height="700dp"
+ />
 
 
 <Button
-        android:id="@+id/prox"
+        android:id="@+id/loqootvlist"
         android:layout_width="100dp"
-        android:layout_height="200dp" />
+        android:layout_height="200dp"
+ />
 
 
 
