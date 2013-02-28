@@ -10,6 +10,7 @@ public class AppMusic extends Service {
 
              public static boolean isRunning = false;
              MediaPlayer player;
+             AudioManager audio;
 
              @Override
                  public IBinder onBind(Intent arg0) {
