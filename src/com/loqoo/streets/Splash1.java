@@ -29,8 +29,7 @@ public class Splash1 extends Activity {
 
        buttonAutoFlip.setOnClickListener(new Button.OnClickListener(){
 
-   @Override
-   public void onClick(View arg0) {
+   
     // TODO Auto-generated method stub
     
     if(SplashFlipper.isFlipping()){
