@@ -17,14 +17,14 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-      final Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
+      Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
 
       buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
 
               @Override
-              public void onClick(View view) {
-                  Intent intent = new Intent(context, LoqooTvList.class);
-                                                      context.startActivity(intent);
+              public void onClick(View v) {
+                  Intent intent = new Intent(MainActivity.this, LoqooTvList.class);
+                                                      startActivity(intent);
         }
 
 });
