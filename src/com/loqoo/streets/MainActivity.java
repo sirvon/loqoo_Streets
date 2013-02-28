@@ -16,9 +16,10 @@ public class MainActivity extends Activity {
       protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+
         Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
-
-      buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
+        buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
             @Override
               public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, LoqooTvList.class);
@@ -26,17 +27,16 @@ public class MainActivity extends Activity {
         }
 });
 
-          Button buttonloqooTvList = (Button)findViewById(R.id.towashave_ew_miafl_usa);
-        
-      buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
+          Button buttonloqooStreets = (Button)findViewById(R.id.towashave_ew_miafl_usa);
+          buttonloqooStreets.setOnClickListener(new Button.OnClickListener(){
             @Override
               public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, LoqooTvList.class);
+                Intent intent = new Intent(MainActivity.this, WashAveEWMiaFLUSA.class);
                 startActivity(intent);
         }
 });
 
-AppEngine.musicThread = new Thread() {
+          AppEngine.musicThread = new Thread() {
                             public void run() {
                                           Intent bgmusic = new Intent(getApplicationContext(), AppMusic.class);
                                           startService(bgmusic);
