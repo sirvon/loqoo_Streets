@@ -16,7 +16,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="LoQooStreets"
-        android:layout_toRightOf=@id/splashlogo>
+        android:layout_toRightOf="@id/splashlogo">
  />
 
 <Button
