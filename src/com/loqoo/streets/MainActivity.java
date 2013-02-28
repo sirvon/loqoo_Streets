@@ -19,7 +19,6 @@ public class MainActivity extends Activity {
       final Button buttonloqooTvList = (Button)findViewById(R.id.loqootvlist);
 
               buttonloqooTvList.setOnClickListener(new Button.OnClickListener(){
-
     @Override
       public void onClick(View arg0) {
 
