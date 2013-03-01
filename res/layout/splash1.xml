@@ -29,30 +29,6 @@
     android:layout_height="match_parent"
 />
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#000000">
-
-<ImageView
-    android:id="@+id/splashlogo"
-    android:src="@drawable/splashlogo" 
-    android:layout_height="248dp"
-    android:layout_width="252dp" />
-
-<Button
-        android:id="@+id/towashave_ew_miafl_usa"
-        android:layout_width="100dp"
-        android:layout_height="700dp" />
-
-
-<Button
-        android:id="@+id/prox"
-        android:layout_width="100dp"
-        android:layout_height="200dp" />
-
-</RelativeLayout>
-
 <ImageView
     android:id="@+id/splash_and"
     android:src="@drawable/and" 
@@ -65,6 +41,7 @@
     android:src="@drawable/girls" 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
 />
 
 
@@ -80,10 +57,8 @@
 
 </ViewFlipper>
 
-<ImageView
-    android:layout_width="25dp"
-    android:layout_height="25dp"
-/>
+<RelativeLayout
+    android:layout
 
 <ImageView
     android:layout_width="25dp"
@@ -95,7 +70,12 @@
     android:layout_height="25dp"
 />
 
+<ImageView
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+/>
 
+</RelativeLayout>
 
 
 </FrameLayout>
