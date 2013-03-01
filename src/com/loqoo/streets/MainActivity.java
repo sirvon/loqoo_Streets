@@ -8,6 +8,7 @@ import android.view.View;
 import android.content.Intent;
 import android.widget.Button;
 import android.content.Context;
+import android.media.AudioManager
 
 public class MainActivity extends Activity {
 
@@ -45,19 +46,10 @@ public class MainActivity extends Activity {
                                     };
         AppEngine.musicThread.start();
 
-AudioManager mAudioManager = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);    
-
-if (mAudioManager.isMusicActive()) {
-
-    Intent i = new Intent("com.android.music.musicservicecommand.togglepause");
-
-    i.putExtra("command", "togglepause");
-    MainActivity.this.sendBroadcast(i);
-} 
-
         }
    
     }
+
 
 
 
