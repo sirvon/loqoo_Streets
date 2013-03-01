@@ -29,7 +29,7 @@ public class AppMusic extends Service {
                              player.setLooping(isLooped);
                              player.setVolume(rVolume,lVolume);
                              audio = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-                             player.setAudioStreamType(AudioManager.STREAM_ALARM);
+                             player.setAudioStreamType(AudioManager.STREAM_MUSIC);
             }
               
 
