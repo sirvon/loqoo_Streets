@@ -59,7 +59,6 @@ buttonAutoFlip.performClick();
      }, AppEngine.GAME_THREAD_DELAY);
 
   
-
   }
 
 }

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.widget.Button;
 
+import com.loqoo.streets.InternetCheck;
+
 public class LoqooTvList extends Activity {
 
  @Override
@@ -12,6 +14,9 @@ public class LoqooTvList extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.loqootvlisting);
 
+        InternetCheck ic = new InternetCheck();
+        ic.internetCheckFunc();
+      
 }
 
 }
