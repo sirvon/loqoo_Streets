@@ -33,37 +33,36 @@ public final class R {
         public static final int washav555front=0x7f02000f;
     }
     public static final class id {
-        public static final int custom=0x7f070016;
+        public static final int custom=0x7f070015;
         public static final int find_coordinates_button=0x7f07000a;
-        public static final int fivefiftyfive=0x7f07001b;
-        public static final int fivefiftyfive1=0x7f07001c;
-        public static final int fiveforty=0x7f070018;
-        public static final int fstwash=0x7f070017;
+        public static final int fivefiftyfive=0x7f07001a;
+        public static final int fivefiftyfive1=0x7f07001b;
+        public static final int fiveforty=0x7f070017;
+        public static final int fstwash=0x7f070016;
         public static final int killtime=0x7f070007;
         public static final int loqootv_listings=0x7f070003;
         public static final int loqootvlist=0x7f070006;
         public static final int point_latitude=0x7f070008;
         public static final int point_longitude=0x7f070009;
-        public static final int prox=0x7f070010;
         public static final int save_point_button=0x7f07000b;
-        public static final int splash_and=0x7f070011;
+        public static final int splash_and=0x7f070010;
         public static final int splash_boys=0x7f07000f;
         public static final int splash_dope=0x7f07000e;
         public static final int splash_flipper=0x7f07000d;
-        public static final int splash_girls=0x7f070012;
-        public static final int splash_kt=0x7f070013;
+        public static final int splash_girls=0x7f070011;
+        public static final int splash_kt=0x7f070012;
         public static final int splashlogo=0x7f070004;
-        public static final int standard=0x7f070015;
+        public static final int standard=0x7f070014;
         public static final int test=0x7f07000c;
         public static final int towashave_ew_miafl_usa=0x7f070005;
         public static final int txtLat=0x7f070000;
         public static final int txtLong=0x7f070001;
         public static final int txtPostalCode=0x7f070002;
-        public static final int washav_east_biz=0x7f07001a;
-        public static final int washav_east_sidewalk=0x7f07001d;
-        public static final int washav_west_biz=0x7f070014;
-        public static final int washav_west_sidewalk=0x7f070019;
-        public static final int webview=0x7f07001e;
+        public static final int washav_east_biz=0x7f070019;
+        public static final int washav_east_sidewalk=0x7f07001c;
+        public static final int washav_west_biz=0x7f070013;
+        public static final int washav_west_sidewalk=0x7f070018;
+        public static final int webview=0x7f07001d;
     }
     public static final class layout {
         public static final int connect=0x7f030000;
